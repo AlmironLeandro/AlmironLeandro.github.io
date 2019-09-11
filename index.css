@@ -1,63 +1,281 @@
-.leleizq {
-	position:absolute;
-	top:15px;
-	left:50px;
+.
+{
+	margin:0px;
+	padding:0px;
 }
-.lele{
-	position:absolute;
-	top:15px;
-	right:50px;
+body
+{
+	margin:auto;
+	background-color:white;
+	font-family:monospace;
+}
+
+.redsocial
+{
+	width:30%;
+	height:70px;
+	text-align:left;
+}
+/**Icono de instagram
+.instagramletras
+{
+	text-decoration:none;
+	color:pink;
+	/*position:relative;
+	left:65px;
+
+}
+
+.instagram
+{
+
+}
+Barra de opciones "comienzo"*//
+nav {
+	padding:auto;
+	margin:auto;
+}
+nav .barra
+{
+	color:grey;
+	padding:25px;
+	margin:35px;
+}
+nav ul
+{
+	display:inline-block;
+	list-style:none;
+}
+
+nav ul li
+{
+	position:relative;
+	color:white;
+	font-style:none;
+
+}
+nav ul li a
+{
+	border:dotted;
+	padding:10px;
+	color:orange;
+	text-decoration:none;
+	font-size:17px;
+
+}
+nav a:hover
+{
+	color:grey;
+}
+/*Barra de opciones "finaliza aca"*/
+
+/**Espacio de  organizacion**/
+
+/**Aca comienza el estilo de imagenes movidas**/
+.imagenes
+{
+	text-align:center;
+	height:100%;
+	width:95%;
+	margin:auto;
+	overflow:hidden;
+}
+.imagenes ul
+{
+	display:flex;
+	width:200%;
+	padding:0;
+	animation: ahora 10s infinite alternate;
+}
+.imagenes  li
+{
+	width:100%;
+	list-style:none;
+}
+.imagenes img
+{
+	width:100%
+}
+@keyframes ahora
+{
+	0%{margin-left: 0;}
+	50%{margin-left:0}
+	100%{margin-left: -100%;}
+}
+/*Aca comienza el diseño del formulario*/
+/**
+.contacto
+{
+	width:100%;
+	height:400px;
+	background-color:grey;
+}
+.parte1
+{
+	position:relative;
+	left:38%;
+	top:30px;
+	height:150px;
+	width:23%;
+	background-color:red;
+}
+.enviar
+{
+
+	height:30px;
+	position:relative;
+	left:100px;
+}
+.mensaje
+{
+	height:100px;
+	width:100%;
+}
+**/
+/**NUEVO CODIGO DE FORMULARIO **/
+
+form {
+	position:relative;
+	width:450px;
+	margin:auto;
+	background-color:#151515;
+	padding:10px 20px;
+	bottom:60px;
+	box-sizing:border-box;
+	margin-top:100px;
+	border-radius:10px;
+}
+form h2 {
+	margin:0;
+	color:orange;
+	text-align:center;
+	font-size:30px;
+	margin-bottom:20px;
+
+}
+input, textarea
+{
+	width:100%;
+	margin-bottom:20px;
+	padding:7px;
+	box-sizing:border-box;
+	font-family:17px;
+
+}
+textarea {
+	max-width:100%;
+	max-height:300px;
+	min-height:100px;
+}
+#enviar{
 	font-size:20px;
 }
-
-.Uno {
-	text-shadow:5px 5px 5px #000;
-	font-size:80px;
-}
-
-
-p {
-
-	font-size:46px;
-	text-shadow:5px 5px 5px #000;
-}
-
-.titulo {
-
-	position:fixed;
-	font-size:80px;
-	background-position:center;
-	width:2000px;
-	background:black;
-	height:11%;
+#enviar:hover {
+	background-color:black;
 	color:white;
-	text-align:center;
-	margin:15px;
-	border:10px outset #040;
+	cursor:pointer;
+}
+@media (max-width:480px) {
+	form{
+		width:100%;
 	}
-body {
-	text-align:center;
-	background:url(Imagenes/Imagen.png);
-	background-repeat:no-repeat;
-	background-attachment:fixed;
-	background-size:3000px;
-}	
-
-.cs
+	
+}
+/**Finaliza el CODIGO DE FORMULARIO **/
+footer
 {
-	position:absolute;
-	right:30px;
-
+	margin:0;
+	background-color:#151515;
 }
-a {
-	color:#fff;
-	font-size:40px;
-	text-align:left;
-	text-shadow:5px 5px 5px #000;
-	text-decoration:none;
-
+footer img
+{
+	margin:15px;
+	display:inline;
+	top:12px;
+	position:relative;
+}
+footer p
+{
+	position:relative;
+	right:20px;
+	bottom:15px;
+	right:1px;
+	font-size:17px;
+	color:white;
+	display:inline-block;
+	color:pink;
+}
+footer p:hover
+{
+	color:grey;
+	cursor:pointer;
+}
+footer h4
+{
+	margin:15px;
+	color:orange;
+	font-family:cursive;
+}
+.cajaredes
+{
+	box-sizing:border-box;
+	border:dashed;
+	border-radius:10px;
+	position:relative;
+	bottom:230px;
+	height:200px;
+	width:35%;
+	margin:30px;
+	padding:10px;
+}
+footer img,a
+{
+	position:relative;
+	bottom:20px;
+	left:10px;
+}
+.ald
+{
+	position:relative;
+	bottom:50px;
+	right:2px;
 }
 
-a:hover {
-
+.ald p
+{
+	position:relative;
+	bottom:22px;
+	font-size:17px;
+	right:13px;
+}
+footer h3
+{
+	position:relative;
+	bottom:150px;
+	font-size:25px;
+	font-family:fantasy;
+	text-align:center;
+	color:white;
+}
+footer .gps
+{
+top:10px;
+width:210px;
+position: relative;
+left:70%;
+}
+footer .gps p
+{
+	top:20px;
+	font-size:25px;
+	font-family:arial;
+	color:orange;
+	position:relative;
+	left:30px;
+}
+footer .gps:hover
+{
+	border:dashed;
+	color:red;
+	cursor:pointer;
 }
