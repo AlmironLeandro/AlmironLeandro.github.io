@@ -1,0 +1,63 @@
+.leleizq {
+	position:absolute;
+	top:15px;
+	left:50px;
+}
+.lele{
+	position:absolute;
+	top:15px;
+	right:50px;
+	font-size:20px;
+}
+
+.Uno {
+	text-shadow:5px 5px 5px #000;
+	font-size:80px;
+}
+
+
+p {
+
+	font-size:46px;
+	text-shadow:5px 5px 5px #000;
+}
+
+.titulo {
+
+	position:fixed;
+	font-size:80px;
+	background-position:center;
+	width:2000px;
+	background:black;
+	height:11%;
+	color:white;
+	text-align:center;
+	margin:15px;
+	border:10px outset #040;
+	}
+body {
+	text-align:center;
+	background:url(Imagenes/Imagen.png);
+	background-repeat:no-repeat;
+	background-attachment:fixed;
+	background-size:3000px;
+}	
+
+.cs
+{
+	position:absolute;
+	right:30px;
+
+}
+a {
+	color:#fff;
+	font-size:40px;
+	text-align:left;
+	text-shadow:5px 5px 5px #000;
+	text-decoration:none;
+
+}
+
+a:hover {
+
+}
